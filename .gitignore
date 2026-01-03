@@ -1,0 +1,175 @@
+# ============================================================
+# 1. MODELS 
+# ============================================================
+# model/       
+# *.pt
+# *.keras
+*.h5
+*.weights
+*.pb
+*.onnx
+*.tflite
+# best.pt
+# weight.keras
+character_recognition.keras
+last.pt
+
+# ============================================================
+# 2. DỮ LIỆU - Chỉ ignore ảnh thực tế, giữ lại link data
+# ============================================================
+# Thư mục data/ chứa link tải dataset nên được giữ lại
+dataset/
+
+# Ignore ảnh thực tế (nếu có)
+images/
+# *.jpg
+# *.jpeg
+# *.png
+# *.webp
+# *.bmp
+# *.tiff
+# *.gif
+
+# Ngoại trừ ảnh demo (nếu cần)
+!demo_images/
+!sample_images/
+
+# ============================================================
+# 3. PYTHON CACHE VÀ VIRTUAL ENVIRONMENT
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================================
+# 4. JUPYTER NOTEBOOK
+# ============================================================
+.ipynb_checkpoints/
+
+# Giữ lại notebook nhưng không track output cells
+# (Output đã được xóa bằng jupyter nbconvert --clear-output)
+
+# ============================================================
+# 5. GOOGLE DRIVE VÀ COLAB
+# ============================================================
+.colab_config
+drive/
+MyDrive/
+/content/
+*.ipynb_checkpoints
+
+# ============================================================
+# 6. IDE VÀ EDITOR
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ============================================================
+# 7. LOGS VÀ TEMPORARY FILES
+# ============================================================
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# ============================================================
+# 8. STREAMLIT
+# ============================================================
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/config.toml
+
+# ============================================================
+# 9. OS GENERATED FILES
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# 10. KẾT QUẢ VÀ OUTPUT
+# ============================================================
+results/
+output/
+predictions/
+runs/
+*.csv
+*.xlsx
+*.json
+
+# ============================================================
+# 11. KAGGLE
+# ============================================================
+/kaggle/
+kaggle.json
+
+# ============================================================
+# 12. THÔNG TIN BẢO MẬT
+# ============================================================
+*.env
+.env
+.env.local
+.env.*.local
+secrets.yaml
+credentials.json
+api_keys.txt
+config_private.py
+
+# ============================================================
+# 13. YOLO TRAINING RESULTS
+# ============================================================
+runs/detect/
+runs/segment/
+runs/train/
+yolov8*/
+
+# ============================================================
+# 14. TENSORFLOW/KERAS
+# ============================================================
+*.ckpt
+checkpoints/
+saved_model/
+tensorboard_logs/
+
+# ============================================================
+# 15. PYTHON DISTRIBUTION
+# ============================================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg

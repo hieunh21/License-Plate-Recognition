@@ -1,0 +1,10 @@
+streamlit
+opencv-python
+numpy
+matplotlib
+pillow
+scikit-image
+scikit-learn
+tensorflow
+ultralytics
+imutils
