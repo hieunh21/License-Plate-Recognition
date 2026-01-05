@@ -56,9 +56,6 @@ venv.bak/
 # ============================================================
 .ipynb_checkpoints/
 
-# Giữ lại notebook nhưng không track output cells
-# (Output đã được xóa bằng jupyter nbconvert --clear-output)
-
 # ============================================================
 # 5. GOOGLE DRIVE VÀ COLAB
 # ============================================================
